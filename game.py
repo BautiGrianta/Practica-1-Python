@@ -17,7 +17,7 @@ for i in range(0, times):
     number_1 = randrange(10)
     number_2 = randrange(10)
     operator = choice(operators)
-    # Chequeo que se pueda hacer la operacion. En caso contrario vuelvo a elegir un numero y un operador.
+    # Chequeo que se pueda realizar la operacion. En caso contrario vuelvo a elegir un numero y un operador.
     while (number_2 == 0 and operator == "/"):
         number_2 = randrange(10)
         operator = choice(operators)
